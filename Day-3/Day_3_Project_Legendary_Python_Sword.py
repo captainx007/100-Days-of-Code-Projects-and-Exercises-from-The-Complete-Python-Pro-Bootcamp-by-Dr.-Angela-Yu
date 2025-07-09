@@ -34,16 +34,16 @@ print("Welcome to the 'Veil of Despair' the island of darkness!!💀")
 print("Your Mission is to find the LEGENDARY PYTHON SWORD!!")
 
 print("You are in middle of no where. Where do u wanna go?")
-go = input("     Type \"left\",\"right\" or \"straight\"? \n    ->>")
+go = input("     Type \"left\",\"right\" or \"straight\"? \n    ->>").lower()
 
-if go == "left" or go == "l" or go == "L" or go == "Left":
+if go == "left":
     print("You are doomed by a demon")
-elif go == "right" or go == "r" or go == "Right" or go == "R":
+elif go == "right":
     print("Suddenly a ghost came, and......")
-    b = input("Do u want to process? yes or no?")
+    b = input("Do u want to process? Yes or No?\n->>").lower()
     if b == "yes":
         print("processing..........")
-        a = input("Do you really wish to know what happen? press 'y' for Yes and 'n' for No")
+        a = input("Do you really wish to know what happen? press 'y' for Yes and 'n' for No\n->>")
     print("You Died. lol 😂")
 else:
     print("You saw the sword on top of the mountain full of ghost")
@@ -60,20 +60,20 @@ else:
 print("Thanks for playing this lame game.")
 print("")
 play_again= input("Do U want to play again? yes or no?\n->>")
-if play_again == "yes" or play_again == "y":
+if play_again == "yes":
     print("You are in middle of no where. Where do u wanna go?")
-    go = input("     Type \"left\",\"right\",\"straight\"or \"up\"? \n    ->>")
+    go = input("     Type \"left\",\"right\",\"straight\"or \"up\"? \n    ->>").lower()
 
-    if go == "left" or go == "l" or go == "L" or go == "Left":
+    if go == "left":
         print("You are doomed by a demon")
-    elif go == "right" or go == "r" or go == "Right" or go == "R":
+    elif go == "right":
         print("Suddenly a ghost came, and......")
         b = input("Do u want to process? yes or no?")
         if b == "yes":
             print("processing..........")
-            a = input("Do you really wish to know what happen? press 'y' for Yes and 'n' for No")
+            a = input("Do you really wish to know what happen? press 'y' for Yes and 'n' for No\n->>")
         print("You Died. lol 😂")
-    elif go == "up" or go == "Up" or go =="u" or go == "U":
+    elif go == "up":
         print("Well u can always fly u know...")
         n = input("Keep flying and grab the sword? type 'a'\n Again fight the ghosts bravely? type 'b'\n->> ")
         if n == "a":
