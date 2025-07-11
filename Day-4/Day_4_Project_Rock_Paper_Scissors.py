@@ -52,3 +52,21 @@ else:
     elif user_input == 2 and computer_choose == 1:
         print("You Win!")
         
+#another logic      
+# user_input = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n->> "))
+
+# computer_choose = random.randint(0,2)
+
+# print(f"Computer Choose : {computer_choose}")
+# if user_input>2 or user_input<0:
+#     print("Invalid input. You lost")
+# elif user_input == 0 and computer_choose == 2:
+#     print("W")
+# elif computer_choose == 0 and user_input == 2:
+#     print("L")
+# elif computer_choose > user_input:
+#     print("L")
+# elif user_input > computer_choose:
+#     print("W")
+# elif user_input == computer_choose:
+#     print("Draw")
