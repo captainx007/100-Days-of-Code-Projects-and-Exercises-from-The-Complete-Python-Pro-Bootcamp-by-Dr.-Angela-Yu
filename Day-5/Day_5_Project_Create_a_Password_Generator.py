@@ -12,19 +12,19 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 random_letters = random.choices(letters,k = nr_letters)#here choose a random letter list
 letter = ""
 
-for l in random_letters[:nr_letters]:
+for l in random_letters:
     letter += l
 
 random_symbols = random.choices(symbols,k =nr_symbols)
 symbol = ""
 
-for s in random_symbols[:nr_symbols]:
+for s in random_symbols:
     symbol += s
 
 random_numbers = random.choices(numbers,k = nr_numbers)
 number =""
 
-for n in random_numbers[:nr_numbers]:
+for n in random_numbers:
     number += n
 
 
