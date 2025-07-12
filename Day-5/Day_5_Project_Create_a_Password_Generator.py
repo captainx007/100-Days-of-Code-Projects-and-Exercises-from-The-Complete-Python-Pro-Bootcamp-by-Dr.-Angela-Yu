@@ -10,7 +10,7 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 # my version
-random_letters = random.choices(letters,k = nr_letters)#here choose a random letter list
+random_letters = random.choices(letters,k = nr_letters)#here choose a random letter list based on user input
 letter = ""
 
 for l in random_letters:
